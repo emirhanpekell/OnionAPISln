@@ -16,7 +16,7 @@ namespace OnionAPI.Persistence.Configurations
         {
             builder.Property(x => x.Name).HasMaxLength(256);
 
-            Faker faker = new("eng");
+            Faker faker = new("tr");
 
             Brand brand1 = new()
             {

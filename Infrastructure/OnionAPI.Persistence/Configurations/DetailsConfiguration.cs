@@ -14,7 +14,7 @@ namespace OnionAPI.Persistence.Configurations
         public void Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Detail> builder)
         {
 
-            Faker faker = new("eng");
+            Faker faker = new("tr");
 
             Detail detail1 = new()
             {

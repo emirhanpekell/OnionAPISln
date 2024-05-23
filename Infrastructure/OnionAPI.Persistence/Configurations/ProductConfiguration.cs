@@ -14,7 +14,7 @@ namespace OnionAPI.Persistence.Configurations
     {
         public void Configure(EntityTypeBuilder<Product> builder)
         {
-            Faker faker = new("eng");
+            Faker faker = new("tr");
 
             Product product1 = new()
             {
