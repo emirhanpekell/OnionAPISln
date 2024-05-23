@@ -21,11 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\Infrastructure\OnionAPI.Persistence\OnionAPI.Persistence.csproj" />
+    <ProjectReference Include="..\..\OnionAPI.Mapper\OnionAPI.Mapper.csproj" />
   </ItemGroup>
 
 </Project>
